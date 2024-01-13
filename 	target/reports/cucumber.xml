@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="34.291">
+<testcase classname="user be able to login with valid credintial from databaase" name="1 user login with valid user id and password" time="34.155">
+<system-out><![CDATA[Given user is on loginpage..................................................passed
+When user enter user name as "username" from database.......................passed
+When user enter user passsword as "password" from database..................passed
+When en user is able to click login button..................................passed
+When user is able to landed on dash bord and able to click on list account..passed
+When user is able to land on add account page and able to click on add button.passed
+When user is able to enter the account information..........................passed
+When user is able to save information.......................................passed
+Then user is able to valid account in list account..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

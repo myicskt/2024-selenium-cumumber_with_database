@@ -1,0 +1,161 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-13T01:48:12.537Z",
+        "line": 7,
+        "name": "1 user login with valid user id and password",
+        "description": "",
+        "id": "user-be-able-to-login-with-valid-credintial-from-databaase;1-user-login-with-valid-user-id-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5547000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on loginpage",
+            "match": {
+              "location": "steps.Login_StepDefination.user_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter user name as \"username\" from database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.Login_StepDefination.user_enter_user_name_as_from_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter user passsword as \"password\" from database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.Login_StepDefination.user_enter_user_passsword_as_from_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8296000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "en user is able to click login button",
+            "match": {
+              "location": "steps.Login_StepDefination.en_user_is_able_to_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1805000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is able to landed on dash bord and able to click on list account",
+            "match": {
+              "location": "steps.Login_StepDefination.user_is_able_to_landed_on_dash_bord_and_able_to_click_on_list_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is able to land on add account page and able to click on add button",
+            "match": {
+              "location": "steps.Login_StepDefination.user_is_able_to_land_on_add_account_page_and_able_to_click_on_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 570000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is able to enter the account information",
+            "match": {
+              "location": "steps.Login_StepDefination.user_is_able_to_enter_the_account_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5054000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is able to save information",
+            "match": {
+              "location": "steps.Login_StepDefination.user_is_able_to_save_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12381000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is able to valid account in list account",
+            "match": {
+              "location": "steps.Login_StepDefination.user_is_able_to_valid_account_in_list_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "user be able to login with valid credintial from databaase",
+    "description": "",
+    "id": "user-be-able-to-login-with-valid-credintial-from-databaase",
+    "keyword": "Feature",
+    "uri": "file:src/test/resurces/features/login_codefios.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
